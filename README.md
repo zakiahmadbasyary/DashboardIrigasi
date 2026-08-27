@@ -33,7 +33,7 @@ Sistem ini dirancang untuk menghubungkan beberapa modul dashboard irigasi, porta
 
 ---
 
-## 🚀 Fitur Utama & Modul Aplikasi
+<!-- ## 🚀 Fitur Utama & Modul Aplikasi
 
 ### 1. 🌐 Portal Utama (`apps/portal` - Port 3000)
 - Pintu masuk utama sistem bagi pengguna untuk memilih 4 modul dashboard irigasi.
@@ -58,7 +58,7 @@ Sistem ini dirancang untuk menghubungkan beberapa modul dashboard irigasi, porta
 ### 7. 🔑 Halaman Login (`apps/login` - Port 3006)
 - Tampilan autentikasi terpusat frontend untuk simulasi login pengguna.
 
----
+--- -->
 
 ## 💻 Panduan Memulai (Getting Started)
 
