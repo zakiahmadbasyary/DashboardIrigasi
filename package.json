@@ -1,0 +1,17 @@
+{
+  "name": "dashboard-irigasi-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "turbo": "^2.4.0",
+    "typescript": "^5.7.3"
+  },
+  "packageManager": "pnpm@10.33.0"
+}
