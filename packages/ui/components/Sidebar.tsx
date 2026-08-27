@@ -71,18 +71,18 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeCode = 'overview' }) => 
   ];
 
   return (
-    <aside className="w-64 bg-slate-900 text-slate-300 flex flex-col min-h-screen shrink-0 border-r border-slate-800">
-      {/* Sidebar Header */}
-      <div className="p-5 border-b border-slate-800 bg-slate-950/50">
+    <aside className="w-64 bg-white text-slate-700 flex flex-col min-h-screen shrink-0 border-r border-slate-200 shadow-xs">
+      {/* Light Sidebar Header */}
+      <div className="p-5 border-b border-slate-100 bg-slate-50/60">
         <a href={portalUrl} className="block">
-          <Logo subtitle="Admin Terpusat" className="text-white" />
+          <Logo subtitle="Admin Terpusat" />
         </a>
       </div>
 
       {/* Navigation Links */}
       <div className="p-4 flex-1 space-y-6">
         <div>
-          <h3 className="px-3 text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+          <h3 className="px-3 text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">
             Manajemen Sistem
           </h3>
           <nav className="space-y-1">
@@ -94,11 +94,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeCode = 'overview' }) => 
                   href={item.href}
                   className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all ${
                     isActive
-                      ? 'bg-emerald-600 text-white shadow-md shadow-emerald-600/30'
-                      : 'text-slate-400 hover:text-slate-100 hover:bg-slate-800/80'
+                      ? 'bg-emerald-50 text-emerald-700 font-semibold border border-emerald-200/80 shadow-xs'
+                      : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100/80'
                   }`}
                 >
-                  <span className={isActive ? 'text-white' : 'text-slate-400'}>{item.icon}</span>
+                  <span className={isActive ? 'text-emerald-600' : 'text-slate-400'}>{item.icon}</span>
                   <span className="truncate">{item.label}</span>
                 </a>
               );
@@ -107,13 +107,13 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeCode = 'overview' }) => 
         </div>
 
         <div>
-          <h3 className="px-3 text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+          <h3 className="px-3 text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">
             Akses Pintar
           </h3>
           <nav className="space-y-1">
             <a
               href={portalUrl}
-              className="flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-slate-400 hover:text-slate-100 hover:bg-slate-800/80 transition-all"
+              className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm text-slate-600 hover:text-slate-900 hover:bg-slate-100/80 font-medium transition-all"
             >
               <svg className="w-5 h-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
@@ -124,11 +124,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeCode = 'overview' }) => 
         </div>
       </div>
 
-      {/* Sidebar Footer */}
-      <div className="p-4 border-t border-slate-800 bg-slate-950/40 text-xs text-slate-400">
+      {/* Light Sidebar Footer */}
+      <div className="p-4 border-t border-slate-100 bg-slate-50/60 text-xs text-slate-500">
         <div className="flex items-center justify-between mb-1">
-          <span className="font-semibold text-slate-300">Admin Console</span>
-          <span className="px-1.5 py-0.5 rounded bg-emerald-950 text-emerald-400 border border-emerald-800 text-[10px]">
+          <span className="font-bold text-slate-700">Admin Console</span>
+          <span className="px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-[10px] font-semibold">
             v1.0.0
           </span>
         </div>
