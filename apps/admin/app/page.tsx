@@ -38,7 +38,7 @@ export default function AdminOverviewPage() {
               <p className="text-xs text-slate-400 mt-1">Admin, Operator, Viewer</p>
             </Card>
             <Card title="Master Data" subtitle="Struktur Terpusat">
-              <div className="text-3xl font-extrabold text-sky-600 mt-2">1 DB (Planned)</div>
+              <div className="text-3xl font-extrabold text-emerald-600 mt-2">1 DB (Planned)</div>
               <p className="text-xs text-slate-400 mt-1">Shared Master Schema</p>
             </Card>
             <Card title="Status Koneksi" subtitle="Gateway Service">

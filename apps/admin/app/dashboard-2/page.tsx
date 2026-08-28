@@ -33,7 +33,7 @@ export default function AdminDashboard2Page() {
           </div>
 
           <div className="bg-white rounded-xl border border-slate-200 p-8 text-center space-y-3 shadow-subtle">
-            <div className="w-12 h-12 bg-sky-100 text-sky-600 rounded-full flex items-center justify-center mx-auto">
+            <div className="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto">
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 15a4 4 0 004 4h9a5 5 0 001.09-9.88l-.7-.19-.18-.71a5 5 0 00-9.8 1.49l.06.82-.7.42A4 4 0 003 15z" />
               </svg>
