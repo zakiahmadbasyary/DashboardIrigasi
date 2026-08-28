@@ -139,7 +139,7 @@ export const RegionPerformanceTable: React.FC<RegionPerformanceTableProps> = ({
 
       {/* Table Helper Footer */}
       <div className="p-3 bg-slate-50 border-t border-slate-200 text-xs text-slate-500 flex items-center justify-between">
-        <span>💡 Klik salah satu baris wilayah untuk membuka detail engine.</span>
+        <span>Klik salah satu baris wilayah untuk membuka detail engine.</span>
         <span className="font-semibold text-slate-600">8 Wilayah (AW01–AW08)</span>
       </div>
     </div>

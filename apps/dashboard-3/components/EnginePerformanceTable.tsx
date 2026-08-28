@@ -144,7 +144,7 @@ export const EnginePerformanceTable: React.FC<EnginePerformanceTableProps> = ({
 
       {/* Table Helper Footer */}
       <div className="p-3 bg-slate-50 border-t border-slate-200 text-xs text-slate-500 flex items-center justify-between">
-        <span>💡 Klik salah satu baris engine untuk melihat detail biaya (cost).</span>
+        <span>Klik salah satu baris engine untuk melihat detail biaya (cost).</span>
         <span className="font-semibold text-slate-600">{regionEngines.length} Engine di {selectedRegion}</span>
       </div>
     </div>

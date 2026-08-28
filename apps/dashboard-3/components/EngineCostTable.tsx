@@ -117,7 +117,7 @@ export const EngineCostTable: React.FC<EngineCostTableProps> = ({
 
       {/* Table Helper Footer */}
       <div className="p-3 bg-amber-50/40 border-t border-slate-200 text-xs text-slate-600 flex items-center justify-between">
-        <span>💰 Seluruh nilai cost ditampilkan dalam mata uang Rupiah (Rp).</span>
+        <span>Seluruh nilai cost ditampilkan dalam mata uang Rupiah (Rp).</span>
         <span className="font-bold text-amber-800">Total Hari: {daysArray.length} Hari</span>
       </div>
     </div>
