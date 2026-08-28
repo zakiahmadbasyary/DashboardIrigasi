@@ -10,6 +10,22 @@ interface GlobalFilterProps {
   totalFilteredCount: number;
 }
 
+const BULAN_OPTIONS: { label: string; value: PeriodeBulan | 'Semua' }[] = [
+  { label: 'Semua Periode', value: 'Semua' },
+  { label: 'Januari 2026', value: 'Januari 2026' },
+  { label: 'Februari 2026', value: 'Februari 2026' },
+  { label: 'Maret 2026', value: 'Maret 2026' },
+  { label: 'April 2026', value: 'April 2026' },
+  { label: 'Mei 2026', value: 'Mei 2026' },
+  { label: 'Juni 2026', value: 'Juni 2026' },
+  { label: 'Juli 2026', value: 'Juli 2026' },
+  { label: 'Agustus 2026', value: 'Agustus 2026' },
+  { label: 'September 2026', value: 'September 2026' },
+  { label: 'Oktober 2026', value: 'Oktober 2026' },
+  { label: 'November 2026', value: 'November 2026' },
+  { label: 'Desember 2026', value: 'Desember 2026' },
+];
+
 export const GlobalFilter: React.FC<GlobalFilterProps> = ({
   filters,
   onFilterChange,
@@ -17,12 +33,12 @@ export const GlobalFilter: React.FC<GlobalFilterProps> = ({
   totalFilteredCount,
 }) => {
   const isFiltered =
-    filters.bulan !== 'Jan-Apr 2026' ||
+    filters.bulan !== 'Semua' ||
     filters.status !== 'Semua' ||
     filters.prioritas !== 'Semua';
 
   return (
-    <div className="sticky top-16 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-sm py-3.5 px-4 sm:px-6 lg:px-8 mb-6">
+    <div className="sticky top-16 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-xs py-3.5 px-4 sm:px-6 lg:px-8 mb-6">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-4">
         {/* Left Side: Dashboard Explanation / Keterangan */}
         <div className="flex flex-col space-y-1">
@@ -44,7 +60,7 @@ export const GlobalFilter: React.FC<GlobalFilterProps> = ({
 
         {/* Right Side: Filters (Frozen/Sticky Control Bar) */}
         <div className="flex flex-wrap items-center gap-3 self-start md:self-center shrink-0">
-          {/* Bulan Filter */}
+          {/* Bulan Filter Dropdown (Pilihan Per Bulan) */}
           <div className="flex flex-col gap-0.5">
             <label htmlFor="filter-bulan" className="text-[11px] font-bold text-slate-600">
               Bulan
@@ -55,12 +71,13 @@ export const GlobalFilter: React.FC<GlobalFilterProps> = ({
               onChange={(e) =>
                 onFilterChange({ ...filters, bulan: e.target.value as PeriodeBulan | 'Semua' })
               }
-              className="bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs font-semibold text-slate-800 shadow-2xs focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 cursor-pointer min-w-[130px]"
+              className="bg-white border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs font-semibold text-slate-800 shadow-2xs focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 cursor-pointer min-w-[140px]"
             >
-              <option value="Jan-Apr 2026">Jan–Apr 2026</option>
-              <option value="Mei-Agu 2026">Mei–Agu 2026</option>
-              <option value="Sep-Des 2026">Sep–Des 2026</option>
-              <option value="Semua">Semua Periode</option>
+              {BULAN_OPTIONS.map((opt) => (
+                <option key={opt.value} value={opt.value}>
+                  {opt.label}
+                </option>
+              ))}
             </select>
           </div>
 

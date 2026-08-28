@@ -10,7 +10,7 @@ import { LocationTableSection } from '../components/LocationTableSection';
 export default function DashboardListLokasiPage() {
   // Global Filter State
   const defaultGlobalFilters: GlobalFilterState = {
-    bulan: 'Jan-Apr 2026',
+    bulan: 'Januari 2026',
     status: 'Semua',
     prioritas: 'Semua',
   };
