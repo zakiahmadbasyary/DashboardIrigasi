@@ -49,7 +49,7 @@ export const Header: React.FC<HeaderProps> = ({
 
   return (
     <header className="sticky top-0 z-40 w-full bg-white/95 backdrop-blur border-b border-slate-200 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
         {/* Left: Logo & Navbar Links */}
         <div className="flex items-center gap-6">
           <a href={portalUrl} className="focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded-lg p-1 transition-all">

@@ -39,7 +39,7 @@ export const GlobalFilter: React.FC<GlobalFilterProps> = ({
 
   return (
     <div className="sticky top-16 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-xs py-3.5 px-4 sm:px-6 lg:px-8 mb-6">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div className="max-w-[1440px] mx-auto flex flex-col md:flex-row md:items-center justify-between gap-4">
         {/* Left Side: Dashboard Explanation / Keterangan */}
         <div className="flex flex-col space-y-1">
           <div className="flex items-center gap-2 flex-wrap">

@@ -12,8 +12,8 @@ export const PageContainer: React.FC<PageContainerProps> = ({
   maxWidth = 'normal',
 }) => {
   const widthClasses = {
-    normal: 'max-w-7xl',
-    wide: 'max-w-7xl lg:max-w-[1400px]',
+    normal: 'max-w-[1440px]',
+    wide: 'max-w-[1536px]',
     full: 'max-w-none',
   };
 
