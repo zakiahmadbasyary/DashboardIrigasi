@@ -1,0 +1,24 @@
+import { LokasiItem } from '../types/lokasi';
+
+export const DUMMY_LOKASI: LokasiItem[] = [
+  { id: '1', lokasi: '00A1', wilayah: 'AW01', luas: 12.5, status: 'NSFC', prioritas: 'High', kaliSiram: 2, cost: 1250000, solar: 45.5, bulan: 'Jan-Apr 2026' },
+  { id: '2', lokasi: '00A2', wilayah: 'AW01', luas: 15.0, status: 'NS', prioritas: 'Med', kaliSiram: 3, cost: 980000, solar: 32.0, bulan: 'Jan-Apr 2026' },
+  { id: '3', lokasi: '00A3', wilayah: 'AW02', luas: 8.2, status: 'NSSC', prioritas: 'High', kaliSiram: 5, cost: 450000, solar: 15.0, bulan: 'Jan-Apr 2026' },
+  { id: '4', lokasi: '00B1', wilayah: 'AW03', luas: 22.4, status: 'NSFC', prioritas: 'Low', kaliSiram: 2, cost: 2100000, solar: 65.2, bulan: 'Jan-Apr 2026' },
+  { id: '5', lokasi: '00B2', wilayah: 'AW04', luas: 18.0, status: 'NS', prioritas: 'Med', kaliSiram: 4, cost: 1400000, solar: 42.0, bulan: 'Jan-Apr 2026' },
+  { id: '6', lokasi: '00B3', wilayah: 'AW05', luas: 14.7, status: 'NSSC', prioritas: 'Low', kaliSiram: 1, cost: 1150000, solar: 38.5, bulan: 'Jan-Apr 2026' },
+  { id: '7', lokasi: '00B4', wilayah: 'AW06', luas: 20.3, status: 'NSFC', prioritas: 'High', kaliSiram: 5, cost: 2850000, solar: 71.0, bulan: 'Jan-Apr 2026' },
+  { id: '8', lokasi: '00B5', wilayah: 'AW07', luas: 11.8, status: 'NS', prioritas: 'Med', kaliSiram: 3, cost: 890000, solar: 29.5, bulan: 'Jan-Apr 2026' },
+  { id: '9', lokasi: '00C1', wilayah: 'AW08', luas: 17.6, status: 'NSSC', prioritas: 'Low', kaliSiram: 2, cost: 1620000, solar: 47.0, bulan: 'Jan-Apr 2026' },
+  { id: '10', lokasi: '00C2', wilayah: 'AW02', luas: 13.4, status: 'NSFC', prioritas: 'High', kaliSiram: 4, cost: 1780000, solar: 53.0, bulan: 'Jan-Apr 2026' },
+  { id: '11', lokasi: '00C3', wilayah: 'AW04', luas: 9.6, status: 'NS', prioritas: 'Low', kaliSiram: 1, cost: 720000, solar: 24.0, bulan: 'Jan-Apr 2026' },
+  { id: '12', lokasi: '00C4', wilayah: 'AW06', luas: 16.2, status: 'NSSC', prioritas: 'Med', kaliSiram: 5, cost: 2350000, solar: 62.5, bulan: 'Jan-Apr 2026' },
+  { id: '13', lokasi: '00D1', wilayah: 'AW01', luas: 19.5, status: 'NSFC', prioritas: 'High', kaliSiram: 4, cost: 1950000, solar: 58.0, bulan: 'Mei-Agu 2026' },
+  { id: '14', lokasi: '00D2', wilayah: 'AW02', luas: 11.0, status: 'NS', prioritas: 'Med', kaliSiram: 2, cost: 1050000, solar: 35.0, bulan: 'Mei-Agu 2026' },
+  { id: '15', lokasi: '00D3', wilayah: 'AW03', luas: 14.2, status: 'NSSC', prioritas: 'Low', kaliSiram: 5, cost: 1650000, solar: 49.0, bulan: 'Mei-Agu 2026' },
+  { id: '16', lokasi: '00D4', wilayah: 'AW05', luas: 21.0, status: 'NSFC', prioritas: 'High', kaliSiram: 3, cost: 2200000, solar: 67.0, bulan: 'Mei-Agu 2026' },
+  { id: '17', lokasi: '00E1', wilayah: 'AW07', luas: 13.8, status: 'NS', prioritas: 'Low', kaliSiram: 1, cost: 1100000, solar: 36.0, bulan: 'Mei-Agu 2026' },
+  { id: '18', lokasi: '00E2', wilayah: 'AW08', luas: 25.4, status: 'NSSC', prioritas: 'Med', kaliSiram: 4, cost: 2900000, solar: 82.0, bulan: 'Mei-Agu 2026' },
+  { id: '19', lokasi: '00F1', wilayah: 'AW03', luas: 16.5, status: 'NSFC', prioritas: 'Med', kaliSiram: 3, cost: 1550000, solar: 48.0, bulan: 'Sep-Des 2026' },
+  { id: '20', lokasi: '00F2', wilayah: 'AW05', luas: 10.8, status: 'NS', prioritas: 'High', kaliSiram: 5, cost: 1280000, solar: 41.0, bulan: 'Sep-Des 2026' },
+];
