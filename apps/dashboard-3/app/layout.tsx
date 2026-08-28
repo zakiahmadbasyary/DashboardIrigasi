@@ -5,6 +5,11 @@ import { Header } from '@irigasi/ui';
 export const metadata = {
   title: 'Dashboard 3 - Telemetri Saluran & Pintu Air',
   description: 'Otomasi dan kontrol bukaan pintu air bendung dan saluran utama.',
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 };
 
 export default function RootLayout({

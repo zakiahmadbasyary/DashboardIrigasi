@@ -5,6 +5,11 @@ import { Header } from '@irigasi/ui';
 export const metadata = {
   title: 'Dashboard 1 - Alokasi & Distribusi Air Irigasi',
   description: 'Monitoring alokasi dan neraca air irigasi terpadu.',
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 };
 
 export default function RootLayout({

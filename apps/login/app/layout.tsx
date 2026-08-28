@@ -4,6 +4,11 @@ import './globals.css';
 export const metadata = {
   title: 'Masuk - Sistem Irigasi Terpadu',
   description: 'Halaman autentikasi terpusat sistem monitoring irigasi.',
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 };
 
 export default function RootLayout({

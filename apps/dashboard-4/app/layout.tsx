@@ -5,6 +5,11 @@ import { Header } from '@irigasi/ui';
 export const metadata = {
   title: 'Dashboard 4 - Stasiun Pompa & Energi',
   description: 'Monitoring stasiun pompa irigasi dan efisiensi konsumsi energi.',
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 };
 
 export default function RootLayout({

@@ -5,6 +5,11 @@ import { Header } from '@irigasi/ui';
 export const metadata = {
   title: 'Admin Console Terpusat - Sistem Irigasi',
   description: 'Halaman pengelolaan terpusat untuk seluruh dashboard irigasi.',
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 };
 
 export default function RootLayout({
