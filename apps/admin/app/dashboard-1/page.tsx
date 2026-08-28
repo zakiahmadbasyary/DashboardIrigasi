@@ -17,16 +17,16 @@ export default function AdminDashboard1Page() {
                 <span className="text-xs text-slate-500">Master Data & Konfigurasi</span>
               </div>
               <h1 className="text-2xl font-extrabold text-slate-900 tracking-tight">
-                Pengelolaan Dashboard 1 - Alokasi Air
+                Pengelolaan List Lokasi
               </h1>
               <p className="text-sm text-slate-500 mt-0.5">
-                Modul administrasi untuk mengatur parameter alokasi air dan batas debit irigasi.
+                Modul administrasi untuk mengelola master data lokasi irigasi dan titik pemantauan.
               </p>
             </div>
             <div>
               <a href={dash1Url}>
                 <Button variant="outline" size="sm">
-                  Buka Dashboard 1 (Port 3001) →
+                  Buka List Lokasi (Port 3001) →
                 </Button>
               </a>
             </div>

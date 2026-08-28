@@ -12,10 +12,10 @@ Sistem ini dirancang untuk menghubungkan beberapa modul dashboard irigasi, porta
 .
 ├── apps/
 │   ├── portal/            # Port 3000 (Portal Utama Sistem)
-│   ├── dashboard-1/        # Port 3001 (Alokasi & Distribusi Air Irigasi)
-│   ├── dashboard-2/        # Port 3002 (Kelembapan Tanah & Agro-Klimatologi)
-│   ├── dashboard-3/        # Port 3003 (Telemetri Saluran & Otomasi Pintu Air)
-│   ├── dashboard-4/        # Port 3004 (Stasiun Pompa & Konsumsi Energi)
+│   ├── dashboard-1/        # Port 3001 (List Lokasi)
+│   ├── dashboard-2/        # Port 3002 (Evaluasi Engine)
+│   ├── dashboard-3/        # Port 3003 (List Engine)
+│   ├── dashboard-4/        # Port 3004 (Masalah Engine)
 │   ├── admin/              # Port 3005 (Konsol Admin Terpusat)
 │   └── login/              # Port 3006 (Halaman Login Frontend)
 │

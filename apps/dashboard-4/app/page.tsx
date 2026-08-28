@@ -15,10 +15,10 @@ export default function Dashboard4Page() {
             <span className="text-xs text-slate-500">Port 3004</span>
           </div>
           <h1 className="text-2xl font-bold text-slate-900 tracking-tight">
-            Dashboard Stasiun Pompa & Monitoring Energi
+            Dashboard Masalah Engine
           </h1>
           <p className="text-sm text-slate-500 mt-1">
-            Status operasional stasiun pompa irigasi, konsumsi daya listrik (kWh), serta jadwal pemeliharaan rutin.
+            Pencatatan gangguan teknis, deteksi masalah operasional engine, alert kerusakan, dan log penanganan.
           </p>
         </div>
 

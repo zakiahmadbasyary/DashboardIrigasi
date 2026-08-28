@@ -36,41 +36,33 @@ Prinsip utama:
 
 ## 3. Palet Warna
 
-Gunakan warna yang terinspirasi dari logo.
+Gunakan warna yang terinspirasi langsung dari tone logo (Tanpa warna biru).
 
-### Warna utama – Hijau
+### 1. Warna Utama – Emerald Green
+Hijau menjadi warna identitas utama sistem yang melambangkan pertanian, irigasi, dan kelestarian lingkungan.
+- **Primary Green**: `#059669` (`emerald-600`) – Tombol utama, active state, indikator penting.
+- **Hover Green**: `#047857` (`emerald-700`) – State hover tombol/link.
+- **Light Green / Surface**: `#ECFDF5` (`emerald-50`) – Background ringan, badge info, highlight aktif.
+- **Border Green**: `#A7F3D0` (`emerald-200`) – Border tipis untuk komponen aktif.
 
-Hijau menjadi warna identitas utama sistem.
+### 2. Warna Sekunder – Warm Gold / Yellow
+Warna sekunder pendamping yang memberi nuansa hangat dan segar.
+- **Secondary Yellow**: `#FCE27A` – Aksen sekunder utama, highlight, dan elemen pendukung.
+- **Amber Text/State**: `#D97706` (`amber-600`) – Teks badge warning/peringatan.
+- **Light Yellow Surface**: `#FEF3C7` (`amber-100`) – Background badge warning.
 
-Gunakan beberapa tingkat hijau untuk kebutuhan UI, misalnya:
+### 3. Warna Aksen Tambahan
+- **Teracotta / Vibrant Orange**: `#F97316` (`orange-500`) – Perhatian, alert, atau status kritis/pompa energi.
+- **Soft Orange Surface**: `#FFF7ED` (`orange-50`) – Background highlight alert.
 
-- Primary Green: untuk tombol utama, active state, dan elemen penting.
-- Dark Green: untuk header tertentu, teks aksen, atau hover state.
-- Light Green: untuk background ringan dan highlight.
+### 4. Warna Netral (Base UI)
+- **Background Utama**: `#F8FAFC` (`slate-50`) – Latar belakang halaman dashboard.
+- **Card / Surface**: `#FFFFFF` (`white`) – Latar belakang kartu & modal.
+- **Border Netral**: `#E2E8F0` (`slate-200`) – Garis pemisah & border kartu.
+- **Text Utama**: `#0F172A` (`slate-900`) / `#1E293B` (`slate-800`) – Judul dan isi teks utama.
+- **Text Sekunder**: `#64748B` (`slate-500`) / `#94A3B8` (`slate-400`) – Label, subtitle, dan metadata.
 
-Karakter warna hijau harus menyerupai nuansa hijau pada logo: natural, profesional, dan tidak terlalu neon.
-
-### Warna aksen
-
-Gunakan warna aksen dari elemen pada logo secara terbatas:
-
-- Orange: untuk perhatian, highlight, atau informasi penting.
-- Lime/Yellow Green: untuk aksen positif atau status tertentu.
-- Blue: untuk elemen yang berhubungan dengan air, informasi, atau data.
-
-Warna aksen tidak boleh mendominasi warna utama.
-
-### Warna netral
-
-Gunakan:
-
-- Background utama: putih atau abu-abu sangat muda.
-- Surface/Card: putih.
-- Border: abu-abu muda.
-- Primary text: abu-abu sangat gelap.
-- Secondary text: abu-abu sedang.
-
-Jangan menggunakan background hitam sebagai tampilan default aplikasi hanya karena logo memiliki background gelap pada file referensi. Tampilan aplikasi tetap harus terang, bersih, dan nyaman untuk dashboard.
+> **Catatan Penting:** Penggunaan warna biru ditiadakan dan diganti penuh dengan kombinasi tone hijau emerald, kuning emas `#FCE27A`, dan oranye alami sesuai identitas visual logo.
 
 ---
 

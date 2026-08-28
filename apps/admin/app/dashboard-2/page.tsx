@@ -17,16 +17,16 @@ export default function AdminDashboard2Page() {
                 <span className="text-xs text-slate-500">Master Data & Konfigurasi</span>
               </div>
               <h1 className="text-2xl font-extrabold text-slate-900 tracking-tight">
-                Pengelolaan Dashboard 2 - Kelembapan Tanah & Iklim
+                Pengelolaan Evaluasi Engine
               </h1>
               <p className="text-sm text-slate-500 mt-0.5">
-                Modul administrasi pendaftaran sensor tanah dan stasiun cuaca agro-klimatologi.
+                Modul administrasi kriteria evaluasi performa engine dan batas efisiensi kerja.
               </p>
             </div>
             <div>
               <a href={dash2Url}>
                 <Button variant="outline" size="sm">
-                  Buka Dashboard 2 (Port 3002) →
+                  Buka Evaluasi Engine (Port 3002) →
                 </Button>
               </a>
             </div>

@@ -29,7 +29,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeCode = 'overview' }) => 
       ),
     },
     {
-      label: 'Dashboard 1 - Alokasi Air',
+      label: 'List Lokasi',
       href: '/admin/dashboard-1',
       code: 'dashboard-1',
       icon: (
@@ -39,7 +39,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeCode = 'overview' }) => 
       ),
     },
     {
-      label: 'Dashboard 2 - Tanah & Iklim',
+      label: 'Evaluasi Engine',
       href: '/admin/dashboard-2',
       code: 'dashboard-2',
       icon: (
@@ -49,7 +49,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeCode = 'overview' }) => 
       ),
     },
     {
-      label: 'Dashboard 3 - Pintu Air',
+      label: 'List Engine',
       href: '/admin/dashboard-3',
       code: 'dashboard-3',
       icon: (
@@ -59,7 +59,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeCode = 'overview' }) => 
       ),
     },
     {
-      label: 'Dashboard 4 - Pompa & Energi',
+      label: 'Masalah Engine',
       href: '/admin/dashboard-4',
       code: 'dashboard-4',
       icon: (

@@ -52,8 +52,8 @@ export default function AdminOverviewPage() {
             <h2 className="text-lg font-bold text-slate-800">Modul Pengelolaan Dashboard</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Card
-                title="Pengelolaan Dashboard 1"
-                subtitle="Alokasi & Distribusi Air Irigasi"
+                title="Pengelolaan List Lokasi"
+                subtitle="DASH-01 / List Lokasi"
                 badge={<Badge variant="info">DASH-01</Badge>}
                 footer={
                   <div className="flex items-center justify-between w-full">
@@ -69,13 +69,13 @@ export default function AdminOverviewPage() {
                 }
               >
                 <p className="text-xs text-slate-500">
-                  Tempat konfigurasi master data debit irigasi, pembagian blok tersier, dan jadwal penggiliran air.
+                  Konfigurasi master data lokasi irigasi, pembagian daerah irigasi, dan titik pemantauan.
                 </p>
               </Card>
 
               <Card
-                title="Pengelolaan Dashboard 2"
-                subtitle="Kelembapan Tanah & Iklim"
+                title="Pengelolaan Evaluasi Engine"
+                subtitle="DASH-02 / Evaluasi Engine"
                 badge={<Badge variant="info">DASH-02</Badge>}
                 footer={
                   <div className="flex items-center justify-between w-full">
@@ -91,13 +91,13 @@ export default function AdminOverviewPage() {
                 }
               >
                 <p className="text-xs text-slate-500">
-                  Pengaturan titik sensor tanah (soil moisture), integrasi stasiun cuaca AWS, dan batas ambang kekeringan.
+                  Pengaturan kriteria evaluasi performa engine, parameter batas efisiensi, dan log histori operasi.
                 </p>
               </Card>
 
               <Card
-                title="Pengelolaan Dashboard 3"
-                subtitle="Telemetri & Pintu Air"
+                title="Pengelolaan List Engine"
+                subtitle="DASH-03 / List Engine"
                 badge={<Badge variant="info">DASH-03</Badge>}
                 footer={
                   <div className="flex items-center justify-between w-full">
@@ -113,13 +113,13 @@ export default function AdminOverviewPage() {
                 }
               >
                 <p className="text-xs text-slate-500">
-                  Kalibrasi tinggi muka air AWLR bendung, pendaftaran actuator pintu air, dan aturan batas siaga banjir.
+                  Inventarisasi unit engine pompa irigasi, pendaftaran spesifikasi teknis, dan status aktif.
                 </p>
               </Card>
 
               <Card
-                title="Pengelolaan Dashboard 4"
-                subtitle="Stasiun Pompa & Energi"
+                title="Pengelolaan Masalah Engine"
+                subtitle="DASH-04 / Masalah Engine"
                 badge={<Badge variant="info">DASH-04</Badge>}
                 footer={
                   <div className="flex items-center justify-between w-full">
@@ -135,7 +135,7 @@ export default function AdminOverviewPage() {
                 }
               >
                 <p className="text-xs text-slate-500">
-                  Inventarisasi unit pompa air, jadwal servis pemeliharaan, dan pencatatan tarif listrik/bahan bakar.
+                  Pencatatan gangguan teknis engine, manajemen alert kerusakan, dan log histori perbaikan.
                 </p>
               </Card>
             </div>

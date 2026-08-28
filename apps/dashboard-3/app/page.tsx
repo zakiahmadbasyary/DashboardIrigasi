@@ -15,10 +15,10 @@ export default function Dashboard3Page() {
             <span className="text-xs text-slate-500">Port 3003</span>
           </div>
           <h1 className="text-2xl font-bold text-slate-900 tracking-tight">
-            Dashboard Telemetri Saluran & Otomasi Pintu Air
+            Dashboard List Engine
           </h1>
           <p className="text-sm text-slate-500 mt-1">
-            Monitoring ketinggian muka air bendung (AWLR), kontrol bukaan pintu penguras & intake, serta peringatan otomatis.
+            Direktori dan inventaris seluruh unit engine pompa irigasi, status keaktifan, dan lokasi penempatan.
           </p>
         </div>
 

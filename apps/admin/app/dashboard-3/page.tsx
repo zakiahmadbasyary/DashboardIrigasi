@@ -17,16 +17,16 @@ export default function AdminDashboard3Page() {
                 <span className="text-xs text-slate-500">Master Data & Konfigurasi</span>
               </div>
               <h1 className="text-2xl font-extrabold text-slate-900 tracking-tight">
-                Pengelolaan Dashboard 3 - Telemetri & Pintu Air
+                Pengelolaan List Engine
               </h1>
               <p className="text-sm text-slate-500 mt-0.5">
-                Modul administrasi pendaftaran pintu air bendung, sensor AWLR, dan skenario alarm.
+                Modul administrasi pendaftaran inventaris engine pompa irigasi dan penempatan.
               </p>
             </div>
             <div>
               <a href={dash3Url}>
                 <Button variant="outline" size="sm">
-                  Buka Dashboard 3 (Port 3003) →
+                  Buka List Engine (Port 3003) →
                 </Button>
               </a>
             </div>

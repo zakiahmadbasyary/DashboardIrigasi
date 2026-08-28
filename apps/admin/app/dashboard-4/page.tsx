@@ -17,16 +17,16 @@ export default function AdminDashboard4Page() {
                 <span className="text-xs text-slate-500">Master Data & Konfigurasi</span>
               </div>
               <h1 className="text-2xl font-extrabold text-slate-900 tracking-tight">
-                Pengelolaan Dashboard 4 - Stasiun Pompa & Energi
+                Pengelolaan Masalah Engine
               </h1>
               <p className="text-sm text-slate-500 mt-0.5">
-                Modul administrasi pendaftaran unit pompa irigasi, kapasitas debit, dan manajemen energi.
+                Modul administrasi pencatatan masalah teknis engine dan histori perbaikan.
               </p>
             </div>
             <div>
               <a href={dash4Url}>
                 <Button variant="outline" size="sm">
-                  Buka Dashboard 4 (Port 3004) →
+                  Buka Masalah Engine (Port 3004) →
                 </Button>
               </a>
             </div>

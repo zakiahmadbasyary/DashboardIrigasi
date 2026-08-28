@@ -15,10 +15,10 @@ export default function Dashboard1Page() {
             <span className="text-xs text-slate-500">Port 3001</span>
           </div>
           <h1 className="text-2xl font-bold text-slate-900 tracking-tight">
-            Dashboard Alokasi & Distribusi Air Irigasi
+            Dashboard List Lokasi
           </h1>
           <p className="text-sm text-slate-500 mt-1">
-            Pemantauan neraca pasokan air, jadwal penggiliran, dan efisiensi penyaluran ke petak tersier.
+            Pemantauan lokasi jaringan irigasi, pemetaan titik pantau, dan alokasi wilayah daerah irigasi.
           </p>
         </div>
 

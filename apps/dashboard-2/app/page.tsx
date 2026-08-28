@@ -15,10 +15,10 @@ export default function Dashboard2Page() {
             <span className="text-xs text-slate-500">Port 3002</span>
           </div>
           <h1 className="text-2xl font-bold text-slate-900 tracking-tight">
-            Dashboard Kelembapan Tanah & Agro-Klimatologi
+            Dashboard Evaluasi Engine
           </h1>
           <p className="text-sm text-slate-500 mt-1">
-            Telemetri sensor kelembapan tanah lahan pertanian, perkiraan curah hujan, dan temperatur udara.
+            Analisis performa engine, pemantauan efisiensi kerja mesin pompa, dan evaluasi riwayat operasi.
           </p>
         </div>
 

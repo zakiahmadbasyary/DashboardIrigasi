@@ -39,10 +39,10 @@ export const Header: React.FC<HeaderProps> = ({
 
   const defaultNavItems: NavItem[] = [
     { label: 'Portal', href: portalUrl, code: 'portal' },
-    { label: 'Dashboard 1', href: dash1Url, code: 'dashboard-1' },
-    { label: 'Dashboard 2', href: dash2Url, code: 'dashboard-2' },
-    { label: 'Dashboard 3', href: dash3Url, code: 'dashboard-3' },
-    { label: 'Dashboard 4', href: dash4Url, code: 'dashboard-4' },
+    { label: 'List Lokasi', href: dash1Url, code: 'dashboard-1' },
+    { label: 'Evaluasi Engine', href: dash2Url, code: 'dashboard-2' },
+    { label: 'List Engine', href: dash3Url, code: 'dashboard-3' },
+    { label: 'Masalah Engine', href: dash4Url, code: 'dashboard-4' },
   ];
 
   const activeNavItems = navItems || (showDashboardNav ? defaultNavItems : []);
