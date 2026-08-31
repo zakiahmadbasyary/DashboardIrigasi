@@ -2,7 +2,7 @@ import React from 'react';
 import { Sidebar, Card, Badge, Button } from '@irigasi/ui';
 
 export default function AdminDashboard1Page() {
-  const dash1Url = process.env.NEXT_PUBLIC_DASHBOARD1_URL || 'http://localhost:3001';
+  const dash1Url = process.env.NEXT_PUBLIC_DASHBOARD1_URL || 'http://localhost:3007';
 
   return (
     <div className="flex w-full min-h-[calc(100vh-4rem)]">
@@ -26,7 +26,7 @@ export default function AdminDashboard1Page() {
             <div>
               <a href={dash1Url}>
                 <Button variant="outline" size="sm">
-                  Buka List Lokasi (Port 3001) →
+                  Buka List Lokasi (Port 3007) →
                 </Button>
               </a>
             </div>

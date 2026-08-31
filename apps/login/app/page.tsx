@@ -8,8 +8,8 @@ export default function LoginPage() {
   const [password, setPassword] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
-  const portalUrl = process.env.NEXT_PUBLIC_PORTAL_URL || 'http://localhost:3000';
-  const adminUrl = process.env.NEXT_PUBLIC_ADMIN_URL || 'http://localhost:3005';
+  const portalUrl = process.env.NEXT_PUBLIC_PORTAL_URL || 'http://localhost:3006';
+  const adminUrl = process.env.NEXT_PUBLIC_ADMIN_URL || 'http://localhost:3011';
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();

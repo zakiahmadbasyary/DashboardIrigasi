@@ -2,7 +2,7 @@ import React from 'react';
 import { Sidebar, Card, Badge, Button } from '@irigasi/ui';
 
 export default function AdminDashboard3Page() {
-  const dash3Url = process.env.NEXT_PUBLIC_DASHBOARD3_URL || 'http://localhost:3003';
+  const dash3Url = process.env.NEXT_PUBLIC_DASHBOARD3_URL || 'http://localhost:3009';
 
   return (
     <div className="flex w-full min-h-[calc(100vh-4rem)]">
@@ -26,7 +26,7 @@ export default function AdminDashboard3Page() {
             <div>
               <a href={dash3Url}>
                 <Button variant="outline" size="sm">
-                  Buka List Engine (Port 3003) →
+                  Buka List Engine (Port 3009) →
                 </Button>
               </a>
             </div>

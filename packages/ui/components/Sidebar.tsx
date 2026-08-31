@@ -15,7 +15,7 @@ interface SidebarProps {
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({ activeCode = 'overview' }) => {
-  const portalUrl = typeof process !== 'undefined' ? process.env.NEXT_PUBLIC_PORTAL_URL || 'http://localhost:3000' : 'http://localhost:3000';
+  const portalUrl = typeof process !== 'undefined' ? process.env.NEXT_PUBLIC_PORTAL_URL || 'http://localhost:3006' : 'http://localhost:3006';
 
   const menuItems: SidebarItem[] = [
     {

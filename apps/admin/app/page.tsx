@@ -2,10 +2,10 @@ import React from 'react';
 import { Sidebar, Card, Badge, Button } from '@irigasi/ui';
 
 export default function AdminOverviewPage() {
-  const dash1Url = process.env.NEXT_PUBLIC_DASHBOARD1_URL || 'http://localhost:3001';
-  const dash2Url = process.env.NEXT_PUBLIC_DASHBOARD2_URL || 'http://localhost:3002';
-  const dash3Url = process.env.NEXT_PUBLIC_DASHBOARD3_URL || 'http://localhost:3003';
-  const dash4Url = process.env.NEXT_PUBLIC_DASHBOARD4_URL || 'http://localhost:3004';
+  const dash1Url = process.env.NEXT_PUBLIC_DASHBOARD1_URL || 'http://localhost:3007';
+  const dash2Url = process.env.NEXT_PUBLIC_DASHBOARD2_URL || 'http://localhost:3008';
+  const dash3Url = process.env.NEXT_PUBLIC_DASHBOARD3_URL || 'http://localhost:3009';
+  const dash4Url = process.env.NEXT_PUBLIC_DASHBOARD4_URL || 'http://localhost:3010';
 
   return (
     <div className="flex w-full min-h-[calc(100vh-4rem)]">
@@ -23,7 +23,7 @@ export default function AdminOverviewPage() {
             </div>
             <div className="flex items-center gap-2">
               <Badge variant="success">Sistem Online</Badge>
-              <span className="text-xs text-slate-400">Port 3005</span>
+              <span className="text-xs text-slate-400">Port 3011</span>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ export default function AdminOverviewPage() {
                 footer={
                   <div className="flex items-center justify-between w-full">
                     <a href={dash1Url} className="text-xs text-emerald-600 font-medium hover:underline">
-                      Buka App (Port 3001) →
+                      Buka App (Port 3007) →
                     </a>
                     <a href="/admin/dashboard-1">
                       <Button variant="secondary" size="sm">
@@ -80,7 +80,7 @@ export default function AdminOverviewPage() {
                 footer={
                   <div className="flex items-center justify-between w-full">
                     <a href={dash2Url} className="text-xs text-emerald-600 font-medium hover:underline">
-                      Buka App (Port 3002) →
+                      Buka App (Port 3008) →
                     </a>
                     <a href="/admin/dashboard-2">
                       <Button variant="secondary" size="sm">
@@ -102,7 +102,7 @@ export default function AdminOverviewPage() {
                 footer={
                   <div className="flex items-center justify-between w-full">
                     <a href={dash3Url} className="text-xs text-emerald-600 font-medium hover:underline">
-                      Buka App (Port 3003) →
+                      Buka App (Port 3009) →
                     </a>
                     <a href="/admin/dashboard-3">
                       <Button variant="secondary" size="sm">
@@ -124,7 +124,7 @@ export default function AdminOverviewPage() {
                 footer={
                   <div className="flex items-center justify-between w-full">
                     <a href={dash4Url} className="text-xs text-emerald-600 font-medium hover:underline">
-                      Buka App (Port 3004) →
+                      Buka App (Port 3010) →
                     </a>
                     <a href="/admin/dashboard-4">
                       <Button variant="secondary" size="sm">

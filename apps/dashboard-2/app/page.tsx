@@ -2,8 +2,8 @@ import React from 'react';
 import { PageContainer, Card, Badge, Button } from '@irigasi/ui';
 
 export default function Dashboard2Page() {
-  const portalUrl = process.env.NEXT_PUBLIC_PORTAL_URL || 'http://localhost:3000';
-  const adminUrl = process.env.NEXT_PUBLIC_ADMIN_URL || 'http://localhost:3005';
+  const portalUrl = process.env.NEXT_PUBLIC_PORTAL_URL || 'http://localhost:3006';
+  const adminUrl = process.env.NEXT_PUBLIC_ADMIN_URL || 'http://localhost:3011';
 
   return (
     <PageContainer>
@@ -12,7 +12,7 @@ export default function Dashboard2Page() {
         <div>
           <div className="flex items-center gap-2 mb-1">
             <Badge variant="info">DASH-02</Badge>
-            <span className="text-xs text-slate-500">Port 3002</span>
+            <span className="text-xs text-slate-500">Port 3008</span>
           </div>
           <h1 className="text-2xl font-bold text-slate-900 tracking-tight">
             Dashboard Evaluasi Engine

@@ -3,12 +3,12 @@ import { Card, Button, Badge, PageContainer } from '@irigasi/ui';
 import { DashboardInfo } from '@irigasi/types';
 
 export default function PortalPage() {
-  const dash1Url = process.env.NEXT_PUBLIC_DASHBOARD1_URL || 'http://localhost:3001';
-  const dash2Url = process.env.NEXT_PUBLIC_DASHBOARD2_URL || 'http://localhost:3002';
-  const dash3Url = process.env.NEXT_PUBLIC_DASHBOARD3_URL || 'http://localhost:3003';
-  const dash4Url = process.env.NEXT_PUBLIC_DASHBOARD4_URL || 'http://localhost:3004';
-  const adminUrl = process.env.NEXT_PUBLIC_ADMIN_URL || 'http://localhost:3005';
-  const loginUrl = process.env.NEXT_PUBLIC_LOGIN_URL || 'http://localhost:3006';
+  const dash1Url = process.env.NEXT_PUBLIC_DASHBOARD1_URL || 'http://localhost:3007';
+  const dash2Url = process.env.NEXT_PUBLIC_DASHBOARD2_URL || 'http://localhost:3008';
+  const dash3Url = process.env.NEXT_PUBLIC_DASHBOARD3_URL || 'http://localhost:3009';
+  const dash4Url = process.env.NEXT_PUBLIC_DASHBOARD4_URL || 'http://localhost:3010';
+  const adminUrl = process.env.NEXT_PUBLIC_ADMIN_URL || 'http://localhost:3011';
+  const loginUrl = process.env.NEXT_PUBLIC_LOGIN_URL || 'http://localhost:3012';
 
   const dashboards: DashboardInfo[] = [
     {
